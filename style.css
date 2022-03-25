@@ -1,0 +1,2000 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+
+.container {
+    width: 100%;
+    height: 696px;
+    background: rgb(240, 211, 174);
+    background: linear-gradient(154deg, rgba(240, 211, 174, 1) 0%, rgba(247, 247, 247, 1) 100%);
+
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-around;
+    width: 60%;
+    list-style: none;
+    position: relative;
+    left: 6rem;
+    top: 2rem;
+}
+
+.container .navbar .logo {
+    width: 100px;
+    position: relative;
+    top: -1rem;
+}
+
+.navbar .btnn {
+    width: 125px;
+    height: 50px;
+    background: #FFFFFF;
+    border: 2px solid #EAEAEA;
+    box-sizing: border-box;
+    position: relative;
+    right: -26rem;
+    top: -1rem;
+
+}
+
+.container h1 {
+
+    position: absolute;
+    top: 10rem;
+    left: 9rem;
+    font-size: 50px;
+    font-family: 'Gosha Sans';
+}
+
+.container ol {
+    position: absolute;
+    top: 17rem;
+    left: 9rem;
+    font-size: 26px;
+    width: 608px;
+
+    font-family: 'Proxima Nova';
+}
+
+.container b {
+    position: absolute;
+    left: 9rem;
+    top: 37rem;
+}
+
+.s22 {
+    transform: rotate(-15deg);
+    position: absolute;
+    width: 371px;
+    left: 50rem;
+    top: 19.8rem;
+    z-index: 1;
+
+}
+
+.s21 {
+    transform: rotate(15deg);
+    position: absolute;
+    width: 371px;
+    left: 68rem;
+    top: 13rem;
+
+
+}
+
+/* CARD */
+
+
+.card {
+    width: 100%;
+    position: absolute;
+    height: 346px;
+    background: #F0F0F0;
+    z-index: 2;
+
+}
+
+.card h2 {
+    font-size: 32px;
+    font-family: 'Gosha Sans';
+    position: absolute;
+    left: 15rem;
+    top: 2rem;
+}
+
+
+
+/* kard ichidagi 1-quti */
+
+
+.card .box {
+    position: absolute;
+    left: 15rem;
+    top: 7rem;
+    width: 226px;
+    height: 177px;
+    background: #FFFFFF;
+    border: 2px solid #EEFFEE;
+}
+
+.card .box .q {
+    width: 60px;
+    height: 60px;
+    margin: 0 0 0 20px;
+    background: #FFAB00;
+    border-radius: 50px;
+
+}
+
+.card .box .q span {
+    position: absolute;
+    left: 2.5rem;
+    top: 1.3rem;
+    font-weight: bold;
+}
+
+.card .box ul {
+    font-weight: bold;
+    position: relative;
+    top: -2.5rem;
+    left: 6rem;
+    font-size: 20px;
+}
+
+.card .box ol {
+    margin: 0 0 0 20px;
+    color: #484848;
+}
+
+
+/* kard ichidagi 2-quti */
+
+
+
+.card .box2 {
+    position: absolute;
+    left: 32rem;
+    top: 7rem;
+    width: 226px;
+    height: 177px;
+    background: #FFFFFF;
+    border: 2px solid #EEFFEE;
+}
+
+.card .box2 .q2 {
+    margin: 0 0 0 20px;
+    width: 60px;
+    height: 60px;
+    background: #FFAB00;
+    border-radius: 50px;
+}
+
+.card .box2 .q2 span {
+    position: absolute;
+    left: 2.5rem;
+    top: 1.3rem;
+    font-weight: bold;
+
+}
+
+.card .box2 ul {
+    font-weight: bold;
+    position: relative;
+    top: -2.5rem;
+    left: 6rem;
+    font-size: 20px;
+}
+
+.card .box2 ol {
+    margin: 0 0 0 20px;
+    color: #484848;
+}
+
+/* kard ichidagi 3-quti */
+
+
+
+
+
+.card .box3 {
+    position: absolute;
+    left: 49rem;
+    top: 7rem;
+
+    width: 226px;
+    height: 177px;
+    background: #FFFFFF;
+    border: 2px solid #EEFFEE;
+}
+
+.card .box3 .q3 {
+    margin: 0 0 0 20px;
+
+    width: 60px;
+    height: 60px;
+    background: #FFAB00;
+    border-radius: 50px;
+}
+
+.card .box3 .q3 span {
+    position: absolute;
+    left: 2.5rem;
+    top: 1.3rem;
+    font-weight: bold;
+
+}
+
+.card .box3 ul {
+    font-weight: bold;
+    position: relative;
+    top: -2.5rem;
+    left: 6rem;
+    font-size: 20px;
+}
+
+.card .box3 ol {
+    margin: 0 0 0 20px;
+    color: #484848;
+}
+
+
+/* kard ichidagi 4-quti */
+
+
+.card .box4 {
+    position: absolute;
+    left: 66rem;
+    top: 7rem;
+
+    width: 226px;
+    height: 177px;
+    background: #FFFFFF;
+    border: 2px solid #EEFFEE;
+}
+
+.card .box4 .q4 {
+    margin: 0 0 0 20px;
+
+    width: 60px;
+    height: 60px;
+    background: #FFAB00;
+    border-radius: 50px;
+}
+
+.card .box4 .q4 span {
+    position: absolute;
+    left: 2.5rem;
+    top: 1.3rem;
+    font-weight: bold;
+
+}
+
+.card .box4 ul {
+    font-weight: bold;
+    position: relative;
+    top: -2.5rem;
+    left: 6rem;
+    font-size: 20px;
+
+}
+
+.card .box4 ol {
+    margin: 0 0 0 20px;
+    color: #484848;
+}
+
+/* 2-card */
+
+.card2 {
+    width: 100%;
+    height: 710px;
+    position: relative;
+    top: 21rem;
+
+}
+
+.card2 h1 {
+    font-family: 'Proxima Nova';
+    position: absolute;
+    top: 2rem;
+    left: 15rem;
+}
+
+.card2 img {
+    position: absolute;
+    top: 5rem;
+    left: 15rem;
+}
+
+.circle {
+    font-size: 63px;
+    position: absolute;
+    left: 45rem;
+    top: 18rem;
+    color: rgba(0, 0, 0, 0.7);
+}
+
+
+
+
+/* 3-card boshlandi */
+
+
+.card3 {
+    position: relative;
+    top: 21rem;
+    height: 707px;
+    width: 100%;
+    background: #F0F0F0;
+}
+
+.card3 h4 {
+    font-size: 32px;
+    position: absolute;
+    left: 15rem;
+    top: 5rem;
+
+
+}
+
+/* 3-card ichidagi 1-quti */
+
+
+.card3 .box1 {
+    position: absolute;
+    left: 15rem;
+    top: 9rem;
+
+    width: 497px;
+    height: 190px;
+
+    background: #FFFFFF;
+    border: 2px solid #EAEAEA;
+    box-sizing: border-box;
+}
+
+.card3 .box1 .k1 {
+    width: 60px;
+    height: 60px;
+    background: #FFAB00;
+    border-radius: 50px;
+    margin: 0 0 0 21px;
+
+}
+
+.card3 .box1 h3 {
+
+    position: absolute;
+    font-family: 'Gosha Sans';
+    font-weight: bold;
+    font-size: 26px;
+    top: 1.1rem;
+    left: 6rem;
+}
+
+.card3 .box1 ul {
+
+    font-family: 'Proxima Nova';
+    width: 448px;
+    font-size: 20px;
+    position: absolute;
+    top: 5rem;
+    margin: 0 0 0 23px;
+
+}
+
+/* 3-card ichidagi 1-quti tugadi */
+
+
+
+/* 3-card ichidagi 2-quti */
+
+.card3 .box2 {
+    position: absolute;
+    left: 48.6rem;
+    top: 9rem;
+    width: 497px;
+    height: 190px;
+    background: #FFFFFF;
+    border: 2px solid #EAEAEA;
+    box-sizing: border-box;
+}
+
+.card3 .box2 .k2 {
+    width: 60px;
+    height: 60px;
+    background: #FFAB00;
+    border-radius: 50px;
+    margin: 0 0 0 21px;
+
+}
+
+.card3 .box2 h3 {
+
+    position: absolute;
+    font-family: 'Gosha Sans';
+    font-weight: bold;
+    font-size: 26px;
+    top: 1.1rem;
+    left: 6rem;
+}
+
+.card3 .box2 ul {
+
+    font-family: 'Proxima Nova';
+    width: 448px;
+    font-size: 20px;
+    position: absolute;
+    top: 5rem;
+    margin: 0 0 0 23px;
+
+}
+
+/* 3-card ichidagi 2-quti tugadi*/
+
+
+/* 3-card ichidagi 3-quti */
+
+
+.card3 .box3 {
+    position: absolute;
+    left: 15rem;
+    top: 24rem;
+    width: 497px;
+    height: 190px;
+    background: #FFFFFF;
+    border: 2px solid #EAEAEA;
+    box-sizing: border-box;
+}
+
+.card3 .box3 .k3 {
+    width: 60px;
+    height: 60px;
+    background: #FFAB00;
+    border-radius: 50px;
+    margin: 0 0 0 21px;
+
+}
+
+.card3 .box3 h3 {
+
+    position: absolute;
+    font-family: 'Gosha Sans';
+    font-weight: bold;
+    font-size: 26px;
+    top: 1.1rem;
+    left: 6rem;
+}
+
+.card3 .box3 ul {
+
+    font-family: 'Proxima Nova';
+    width: 448px;
+    font-size: 20px;
+    position: absolute;
+    top: 5rem;
+    margin: 0 0 0 23px;
+
+}
+
+/* 3-card ichidagi 3-quti tugadi*/
+/* 3-card ichidagi 4-quti*/
+
+.card3 .box4 {
+    position: absolute;
+
+    left: 48.6rem;
+    top: 24rem;
+
+    width: 497px;
+    height: 190px;
+    background: #FFFFFF;
+    border: 2px solid #EAEAEA;
+    box-sizing: border-box;
+}
+
+.card3 .box4 .k4 {
+    width: 60px;
+    height: 60px;
+    background: #FFAB00;
+    border-radius: 50px;
+    margin: 0 0 0 21px;
+
+}
+
+.card3 .box4 h3 {
+
+    position: absolute;
+    font-family: 'Gosha Sans';
+    font-weight: bold;
+    font-size: 26px;
+    top: 1.1rem;
+    left: 6rem;
+}
+
+.card3 .box4 ul {
+
+    font-family: 'Proxima Nova';
+    width: 448px;
+    font-size: 20px;
+    position: absolute;
+    top: 5rem;
+    margin: 0 0 0 23px;
+
+}
+
+/* 3-card ichidagi 4-quti tugadi*/
+
+
+.container-btn {
+    position: relative;
+    width: 100%;
+    height: 850px;
+    top: 13rem;
+    left: -9rem;
+
+}
+
+.container-btn h6 {
+    font-size: 27px;
+    position: absolute;
+    top: 9.5rem;
+    left: 24rem;
+}
+
+.container-btn .btn-logo {
+    position: absolute;
+    width: 146px;
+    height: 50px;
+    background: #F4F4F4;
+    border: 2px solid #EAEAEA;
+    top: 9rem;
+    left: 80.5rem;
+}
+
+
+.container-btn .cardd {
+    position: absolute;
+    top: 14px;
+    left: 6rem;
+
+    width: 508px;
+    height: 235px;
+    background: #F4F4F4;
+    border: 2px solid #EAEAEA;
+}
+
+.cardd f {
+    font-family: 'Proxima Nova';
+    font-weight: bold;
+    margin: 20px;
+}
+
+.cardd ul {
+    font-family: 'Proxima Nova';
+    color: #484848;
+    margin: 20px;
+}
+
+.cardd ol {
+    font-family: 'Proxima Nova';
+    color: #484848;
+    margin: 20px;
+}
+
+.cardd d {
+    font-family: 'Proxima Nova';
+    color: #484848;
+    margin: 20px;
+}
+
+
+.card-btn {
+    position: absolute;
+    left: 9rem;
+    top: 6rem;
+}
+
+/* btnlar boshlandi */
+.btn2 {
+    position: absolute;
+    top: 18rem;
+    left: 6rem;
+
+    width: 508px;
+    height: 103px;
+    background: #F4F4F4;
+    border: 2px solid #EAEAEA;
+    font-weight: bold;
+
+}
+
+.btn3 {
+    position: absolute;
+    top: 27rem;
+    left: 6rem;
+
+    width: 508px;
+    height: 103px;
+    background: #F4F4F4;
+    border: 2px solid #EAEAEA;
+    font-weight: bold;
+
+}
+
+.btn4 {
+    position: absolute;
+    top: 37rem;
+    left: 6rem;
+
+    width: 508px;
+    height: 103px;
+    background: #F4F4F4;
+    border: 2px solid #EAEAEA;
+    font-weight: bold;
+
+}
+
+.btn5 {
+    position: absolute;
+    left: 40rem;
+    top: 1rem;
+    width: 508px;
+    height: 103px;
+    background: #F4F4F4;
+    border: 2px solid #EAEAEA;
+    font-weight: bold;
+
+}
+
+.btn6 {
+    position: absolute;
+    left: 40rem;
+    top: 9rem;
+    width: 508px;
+    height: 103px;
+    background: #F4F4F4;
+    border: 2px solid #EAEAEA;
+    font-weight: bold;
+}
+
+.btn7 {
+    position: absolute;
+    left: 40rem;
+    top: 18rem;
+    width: 508px;
+    height: 103px;
+    background: #F4F4F4;
+    border: 2px solid #EAEAEA;
+    font-weight: bold;
+
+}
+
+.btn8 {
+    position: absolute;
+    left: 40rem;
+    top: 27rem;
+    width: 508px;
+    height: 103px;
+    background: #F4F4F4;
+    border: 2px solid #EAEAEA;
+    font-weight: bold;
+
+}
+
+.btn9 {
+    position: absolute;
+    left: 40rem;
+    top: 37rem;
+    width: 508px;
+    height: 103px;
+    background: #F4F4F4;
+    border: 2px solid #EAEAEA;
+    font-weight: bold;
+
+}
+/* btnlar tugadi */
+
+/* containerr :start */
+
+.shadow {
+    width: 100%;
+    height: 700px;
+    position: relative;
+    background: #F0F0F0;
+    top: 21rem;
+
+}
+
+.shadow h5 {
+    font-size: 25px;
+    font-weight: bold;
+    position: absolute;
+    left: 14rem;
+    top: 5rem;
+}
+
+/* .boxx1 :start */
+.boxx1 {
+    position: absolute;
+    top: 9rem;
+    left: 14rem;
+    width: 332px;
+    height: 303px;
+    background: #FFFFFF;
+    border: 2px solid #EAEAEA;
+
+}
+
+
+.shadow .boxx1 ul {
+
+    font-family: 'Proxima Nova';
+    font-weight: bold;
+    margin: 20px;
+    font-size: 20px;
+}
+
+.shadow .boxx1 ol {
+    color: #484848;
+    font-size: 20px;
+    margin: 20px;
+}
+
+.css {
+    width: 273px;
+    height: 235px;
+    position: absolute;
+    top: 12rem;
+    left: 28px;
+
+}
+
+/* .boxx1 :end */
+
+
+
+/* .boxx2 :start */
+.boxx2 {
+    position: absolute;
+    top: 9rem;
+    left: 37rem;
+    width: 332px;
+    height: 303px;
+    background: #FFFFFF;
+    border: 2px solid #EAEAEA;
+
+}
+
+
+.shadow .boxx2 ul {
+
+    font-family: 'Proxima Nova';
+    font-weight: bold;
+    margin: 20px;
+    font-size: 20px;
+}
+
+.shadow .boxx2 ol {
+    color: #484848;
+    font-size: 20px;
+    margin: 20px;
+}
+
+/* .boxx2 :end */
+
+
+
+/* .boxx3 :start */
+.boxx3 {
+    position: absolute;
+    top: 9rem;
+    left: 60rem;
+    width: 332px;
+    height: 303px;
+    background: #FFFFFF;
+    border: 2px solid #EAEAEA;
+
+}
+
+
+.shadow .boxx3 ul {
+
+    font-family: 'Proxima Nova';
+    font-weight: bold;
+    margin: 20px;
+    font-size: 20px;
+}
+
+.shadow .boxx3 ol {
+    color: #484848;
+    font-size: 20px;
+    margin: 20px;
+}
+
+/* .boxx3 :end*/
+
+
+.chest {
+    position: relative;
+    width: 100%;
+    height: 731px;
+    top: 21rem;
+}
+
+.chest h3 {
+    position: absolute;
+    left: 16rem;
+    top: 5rem;
+    font-weight: bold;
+}
+
+/* 1-urn */
+.urn1 {
+    position: absolute;
+    top: 8rem;
+    left: 16rem;
+    width: 508px;
+    height: 266px;
+    background: #F4F4F4;
+    border: 2px solid #EAEAEA;
+}
+
+.urn1 h1 {
+    color: #FFAB00;
+    margin: 20px;
+}
+
+.urn1 ol {
+    font-family: 'Proxima Nova';
+    font-size: 20px;
+    font-weight: bold;
+    margin: 20px;
+}
+
+.urn1 ul {
+    width: 400px;
+    margin: 20px;
+}
+
+/* 2-urn */
+.urn2 {
+    position: absolute;
+    top: 8rem;
+    left: 51rem;
+    width: 508px;
+    height: 266px;
+    background: #F4F4F4;
+    border: 2px solid #EAEAEA;
+}
+
+.urn2 h1 {
+    color: #FFAB00;
+    margin: 20px;
+}
+
+.urn2 ol {
+    font-family: 'Proxima Nova';
+    font-size: 20px;
+    font-weight: bold;
+    margin: 20px;
+}
+
+.urn2 ul {
+    width: 400px;
+    margin: 20px;
+}
+
+/* 3-urn */
+
+.urn3 {
+    position: absolute;
+    top: 27rem;
+    left: 16rem;
+
+    width: 508px;
+    height: 266px;
+    background: #F4F4F4;
+    border: 2px solid #EAEAEA;
+}
+
+.urn3 h1 {
+    color: #FFAB00;
+    margin: 20px;
+}
+
+.urn3 ol {
+    font-family: 'Proxima Nova';
+    font-size: 20px;
+    font-weight: bold;
+    margin: 20px;
+}
+
+.urn3 ul {
+    width: 400px;
+    margin: 20px;
+}
+
+/* 4-urn */
+
+.urn4 {
+    position: absolute;
+    top: 27rem;
+    left: 51rem;
+    width: 508px;
+    height: 266px;
+    background: #F4F4F4;
+    border: 2px solid #EAEAEA;
+}
+
+.urn4 h1 {
+    color: #FFAB00;
+    margin: 20px;
+}
+
+.urn4 ol {
+    font-family: 'Proxima Nova';
+    font-size: 20px;
+    font-weight: bold;
+    margin: 20px;
+}
+
+.urn4 ul {
+    width: 400px;
+    margin: 20px;
+}
+
+/* 4-urn end*/
+/* chest :end */
+
+.case {
+    width: 100%;
+    height: 831px;
+    overflow: hidden;
+
+}
+
+.case h1 {
+    position: relative;
+    color: rgb(0, 0, 0);
+    top: 25rem;
+    left: 15rem;
+    font-size: 25px;
+}
+
+.case img {
+    position: relative;
+    top: 26rem;
+    left: 14rem;
+    margin: 20px;
+
+}
+
+.navbar-end {
+    width: 100%;
+    height: 312px;
+    background: rgb(240, 211, 174);
+    background: linear-gradient(154deg, rgba(240, 211, 174, 1) 0%, rgba(247, 247, 247, 1) 100%);
+    overflow: hidden;
+}
+
+.navbar-end h3 {
+    font-family: 'Gosha Sans';
+    position: relative;
+    font-size: 34px;
+    left: 35rem;
+    top: 5rem;
+
+}
+
+.navbar-end u {
+    position: relative;
+    left: 42rem;
+    top: 6rem;
+}
+
+#btn {
+    position: relative;
+    top: 11rem;
+    left: 10rem;
+    width: 313px;
+    height: 50px;
+    background: #FFAB00;
+}
+
+#btnn {
+    position: relative;
+    top: 11rem;
+    left: 13rem;
+    width: 313px;
+    height: 50px;
+    background: #F4F4F4;
+}
+
+.con-end {
+    width: 100%;
+    height: 80px;
+    overflow: hidden;
+}
+
+.con-end g {
+    position: relative;
+    top: 2rem;
+    left: 7rem;
+    text-decoration: underline;
+}
+
+.con-end j {
+    position: relative;
+    top: 2rem;
+    left: 12rem;
+    text-decoration: underline;
+
+}
+
+.network {
+    position: relative;
+    top: -1rem;
+    left: 76rem;
+}
+
+.instagram {
+    margin: 30px;
+}
+
+@media only screen and (max-width:992px) {
+
+    .container {
+        width: 100%;
+        height: 800px;
+
+
+    }
+
+    .navbar {
+        display: flex;
+        position: absolute;
+        width: 100%;
+        font-size: 20px;
+        justify-content: space-around;
+        align-items: center;
+        display: flex;
+    }
+
+
+    .container .navbar li {
+        position: relative;
+        left: -5rem;
+        top: 3rem;
+    }
+    
+
+
+    .container .navbar .logo {
+        position: absolute;
+        top: 0rem;
+        font-size: 30px;
+        width: 523px;
+    }
+
+    .container ol {
+        position: absolute;
+        top: 14rem;
+        left: 7rem;
+        font-size: 25px;
+        width: 538px;
+    }
+
+
+    .container h1 {
+        position: absolute;
+        top: 9rem;
+        left: 15rem;
+        font-size: 44px;
+    }
+
+    .navbar .btnn {
+        width: 125px;
+        height: 50px;
+        position: relative;
+        right: 6rem;
+        top: 3rem;
+    }
+
+    .s22 {
+        transform: rotate(0deg);
+        position: absolute;
+        width: 271px;
+        left: 7rem;
+        top: 24rem;
+    }
+
+    .s21 {
+        transform: rotate(0deg);
+        position: absolute;
+        width: 223px;
+        left: 27rem;
+        top: 28rem;
+
+    }
+
+    .container b {
+        position: absolute;
+        left: 7rem;
+        top: 47.5rem;
+    }
+
+    .card {
+        width: 100%;
+        position: absolute;
+        height: 560px;
+    }
+
+    .card h2 {
+        font-size: 32px;
+        position: absolute;
+        left: 7rem;
+        top: 2rem;
+
+    }
+
+    .card .box {
+        position: absolute;
+        left: 7rem;
+        top: 7rem;
+    }
+
+    .card .box2 {
+        position: absolute;
+        left: 27rem;
+        top: 7rem;
+    }
+
+    .card .box3 {
+        position: absolute;
+        left: 7rem;
+        top: 21rem;
+    }
+
+    .card .box4 {
+        position: absolute;
+        left: 27rem;
+        top: 21rem;
+    }
+
+    .card2 {
+        width: 100%;
+        height: 710px;
+        position: relative;
+        top: 46rem;
+    }
+
+
+
+    .card2 h1 {
+        position: absolute;
+        top: -9rem;
+        left: 7rem;
+    }
+    .card2 img {
+        position: absolute;
+        top: -5rem;
+        left: 7rem;
+        width: 662px;
+    }
+
+    .circle {
+        font-size: 50px;
+        position: absolute;
+        left: 22rem;
+        top: 4rem;
+        color: rgba(0, 0, 0, 0.7);
+    }
+
+
+    .card3 {
+        position: relative;
+        top: 24rem;
+        height: 1070px;
+        width: 100%;
+        background: #F0F0F0;
+    }
+
+    .card3 h4 {
+        font-size: 32px;
+        position: absolute;
+        left: 7rem;
+        top: 3rem;
+    }
+
+
+    .card3 .box1 {
+        position: absolute;
+        left: 7rem;
+        top: 7rem;
+    }
+
+
+    .card3 .box2 {
+        position: absolute;
+        left: 7rem;
+        top: 22rem;
+    }
+
+    .card3 .box3 {
+        position: absolute;
+        left: 7rem;
+        top: 37rem;
+    }
+
+    .card3 .box4 {
+        position: absolute;
+        left: 7rem;
+        top: 52rem;
+    }
+
+
+    .container-btn {
+        position: relative;
+        width: 100%;
+        height: 1700px;
+        top: 24rem;
+        left: 0rem;
+
+    } 
+    .container-btn .cardd {
+        position: absolute;
+        top: 14px;
+        left: 6rem;
+        width: 508px;
+        height: 235px;
+        background: #F4F4F4;
+        border: 2px solid #EAEAEA;
+    }
+    .container-btn h6 {
+        font-size: 27px;
+        position: absolute;
+        top: 3.5rem;
+        left: 7rem;
+    }
+
+    .card-btn {
+        position: absolute;
+        left: 0.5rem;
+        top: 3rem;
+    }
+
+    .container-btn .btn-logo {
+        position: absolute;
+        width: 146px;
+        height: 50px;
+        top: 3rem;
+        left: 29.4rem;
+    }
+
+    .btn5 {
+        position: absolute;
+        left: 6rem;
+        top: 47rem;
+    }
+
+    .btn6 {
+        position: absolute;
+        left: 6rem;
+        top: 57rem;
+    }
+
+    .btn7 {
+        position: absolute;
+        left: 6rem;
+        top: 67rem;
+    }
+
+    .btn8 {
+        position: absolute;
+        left: 6rem;
+        top: 77rem;
+    }
+
+    .btn9 {
+        position: absolute;
+        left: 6rem;
+        top: 87rem;
+    }
+
+    .shadow {
+        width: 100%;
+        height: 1550px;
+        position: relative;
+        background: #F0F0F0;
+        top: 21rem;
+    }
+
+    .shadow h5 {
+        font-size: 25px;
+        font-weight: bold;
+        position: absolute;
+        left: 7rem;
+        top: 2rem;
+    }
+
+    .boxx1 {
+        position: absolute;
+        top: 7rem;
+        left: 7rem;
+        width: 508px;
+        height: 270px;
+
+    }
+
+    .boxx2 {
+        position: absolute;
+        top: 36rem;
+        left: 7rem;
+        width: 508px;
+        height: 270px;
+    }
+
+    .boxx3 {
+        position: absolute;
+        top: 65rem;
+        left: 7rem;
+        width: 508px;
+        height: 270px;
+    }
+
+    .css {
+        width: 390px;
+        height: 240px;
+        position: absolute;
+        top: 12rem;
+        left: 3.5rem;
+    }
+
+    .chest {
+        position: relative;
+        width: 100%;
+        height: 1500px;
+        top: 21rem;
+    }
+
+    .chest h3 {
+        position: absolute;
+        left: 7rem;
+        top: 2rem;
+        font-weight: bold;
+    }
+
+    .urn1 {
+        position: absolute;
+        top: 6rem;
+        left: 7rem;
+    }
+
+    .urn2 {
+        position: absolute;
+        top: 27rem;
+        left: 7rem;
+    }
+
+    .urn3 {
+        position: absolute;
+        top: 48rem;
+        left: 7rem;
+    }
+
+    .urn4 {
+        position: absolute;
+        top: 69rem;
+        left: 7rem;
+    }
+
+    .case {
+        width: 100%;
+        height: 1250px;
+        overflow: hidden;
+    }
+
+
+
+    .case h1 {
+        position: relative;
+        top: 22rem;
+        left: 7rem;
+    }
+
+    .case img {
+        position: relative;
+        top: 24rem;
+        left: 5rem;
+        margin: 20px;
+    }
+
+    /* .foto{
+        display: none;
+    } */
+
+    .navbar-end h3 {
+        position: relative;
+        font-size: 34px;
+        left: 6rem;
+        top: 2rem;
+        overflow: hidden;
+
+    }
+
+    #btnn {
+        position: relative;
+        top: 2rem;
+        left: 6rem;
+        width: 280px;
+    }
+
+    #btn {
+        position: relative;
+        top: 5.1rem;
+        left: 6rem;
+        width: 280px;
+    }
+
+    .navbar-end u {
+        position: relative;
+        left: 5rem;
+        top: 13rem;
+        overflow: hidden;
+    }
+
+    .con-end g {
+        position: relative;
+        top: 2rem;
+        left: 5rem;
+    }
+
+    .con-end j {
+        position: relative;
+        top: 2rem;
+        left: 7rem;
+    }
+
+
+    .network {
+        position: relative;
+        top: -1rem;
+        left: 35rem;
+    }
+}
+
+
+@media only screen and (max-width:576px) {
+
+    .container {
+        width: 100%;
+        height: 800px;
+
+    }
+
+    .navbar {
+        flex-direction: column;
+        font-size: 20px;
+        top: -1rem;
+        left: -4rem;
+    }
+
+    .container .navbar .logo {
+        width: 383px;
+        position: relative;
+        top: 2rem;
+        font-size: 34px;
+        left: 3rem;
+    }
+    .navbar .btnn {
+        width: 125px;
+        height: 50px;
+        position: absolute;
+        top: 13rem;
+        left: 8rem;
+    }
+
+    .navbar li {
+        position: absolute;
+        left: -1rem;
+    }
+ 
+
+    .container h1 {
+
+        position: absolute;
+        top: 16rem;
+        left: 4rem;
+    }
+
+    .container ol {
+        position: absolute;
+        top: 20rem;
+        left: 4.5rem;
+        font-size: 23px;
+        width: 338px;
+    }
+
+    .container b {
+        position: absolute;
+        left: 7rem;
+        top: 47rem;
+    }
+
+
+    .s22 {
+        transform: rotate(0deg);
+        position: absolute;
+        width: 200px;
+        height: 200px;
+        left: 4.5rem;
+        top: 29rem;
+
+    }
+
+    .s21 {
+        transform: rotate(0deg);
+        position: absolute;
+        width: 180px;
+        height: 180px;
+        left: 17rem;
+        top: 30.3rem;
+
+
+    }
+
+    /* CARD  responsive*/
+
+
+    .card {
+        flex-direction: column;
+        width: 100%;
+        position: absolute;
+        height: 970px;
+
+    }
+
+    .card h2 {
+        font-size: 32px;
+        font-family: 'Gosha Sans';
+        position: absolute;
+        left: 4rem;
+        top: 2rem;
+    }
+
+
+    /* kard ichidagi 1-quti responsive*/
+
+
+    .card .box {
+        left: 4rem;
+        width: 372px;
+        height: 177px;
+    }
+
+
+    /* kard ichidagi 2-quti responsive*/
+
+
+    .card .box2 {
+        left: 4rem;
+        top: 20rem;
+        width: 372px;
+        height: 177px;
+    }
+
+    /* kard ichidagi 3-quti responsive*/
+
+    .card .box3 {
+        left: 4rem;
+        width: 372px;
+        height: 177px;
+        top: 33rem;
+    }
+
+    /* kard ichidagi 4-quti */
+
+    .card .box4 {
+        left: 4rem;
+        width: 372px;
+        height: 177px;
+        top: 46rem;
+    }
+
+    /* 2-card */
+
+    .card2 {
+        width: 100%;
+        height: 980px;
+        position: relative;
+        left: 0;
+
+    }
+
+
+    .card2 h1 {
+        position: absolute;
+        top: 41rem;
+        left: 4rem;
+    }
+
+    .card2 img {
+        position: absolute;
+        top: 45rem;
+        left: 4rem;
+        width: 410px;
+    }
+
+
+    .circle {
+        font-size: 26px;
+        position: absolute;
+        left: 16rem;
+        top: 50rem;
+        color: rgba(0, 0, 0, 0.7);
+    }
+
+    /* 3-card boshlandi */
+
+    .card3 {
+        position: relative;
+        top: -2rem;
+        height: 1050px;
+        width: 100%;
+    }
+
+    .card3 h4 {
+        font-size: 32px;
+        position: absolute;
+        left: 4rem;
+        top: 3rem;
+
+
+    }
+
+
+    .card3 .box1 {
+        position: absolute;
+        left: 4rem;
+        top: 9rem;
+        width: 380px;
+        height: 190px;
+
+    }
+
+    .card3 .box1 ul {
+        width: 320px;
+    }
+
+    .card3 .box2 {
+        position: absolute;
+        left: 4rem;
+        top: 23rem;
+        width: 380px;
+        height: 190px;
+
+    }
+
+    .card3 .box2 ul {
+        width: 320px;
+    }
+
+    .card3 .box3 {
+        position: absolute;
+        left: 4rem;
+        top: 37rem;
+        width: 380px;
+        height: 190px;
+
+    }
+
+    .card3 .box3 ul {
+        width: 320px;
+    }
+
+    .card3 .box4 {
+        position: absolute;
+        left: 4rem;
+        top: 51rem;
+        width: 380px;
+        height: 190px;
+
+    }
+
+    .card3 .box4 ul {
+        width: 320px;
+    }
+
+    /* .container-btn responsive */
+
+    .container-btn {
+        position: relative;
+        width: 100%;
+        height: 1500px;
+        top: -2rem;
+    }
+
+    .container-btn h6 {
+        font-size: 27px;
+        position: absolute;
+        top: 3.5rem;
+        left: 4rem;
+    }
+
+    .container-btn .btn-logo {
+        position: absolute;
+        width: 130px;
+        height: 50px;
+        top: 3rem;
+        left: 19.6rem;
+    }
+
+    .container-btn .cardd {
+        position: absolute;
+        top: 1rem;
+        left: 3rem;
+        width: 380px;
+        height: 190px;
+    }
+
+    .btn2 {
+        position: absolute;
+        top: 15rem;
+        left: 3rem;
+        width: 380px;
+        height: 103px;
+    }
+
+    .btn3 {
+        position: absolute;
+        top: 24rem;
+        left: 3rem;
+        width: 380px;
+        height: 103px;
+    }
+
+    .btn4 {
+        position: absolute;
+        top: 33rem;
+        left: 3rem;
+        width: 380px;
+        height: 103px;
+    }
+
+    .btn5 {
+        position: absolute;
+        top: 42rem;
+        left: 3rem;
+        width: 380px;
+        height: 103px;
+    }
+
+    .btn6 {
+        position: absolute;
+        top: 51rem;
+        left: 3rem;
+        width: 380px;
+        height: 103px;
+    }
+
+    .btn7 {
+        position: absolute;
+        top: 60rem;
+        left: 3rem;
+        width: 380px;
+        height: 103px;
+    }
+
+    .btn8 {
+        position: absolute;
+        top: 69rem;
+        left: 3rem;
+        width: 380px;
+        height: 103px;
+    }
+
+    .btn9 {
+        position: absolute;
+        top: 78rem;
+        left: 3rem;
+        width: 380px;
+        height: 103px;
+    }
+
+
+    .shadow {
+        width: 100%;
+        height: 1350px;
+        position: relative;
+        top: -2rem;
+    }
+
+    .shadow h5 {
+        position: absolute;
+        left: 4rem;
+    }
+
+    .css {
+        width: 300px;
+        left: 2.5rem;
+        top: 9rem;
+        height: 180px;
+    }
+
+    .boxx1 {
+        position: absolute;
+        top: 7rem;
+        left: 4rem;
+        width: 380px;
+        height: 200px;
+    }
+
+    .boxx2 {
+        position: absolute;
+        top: 32rem;
+        left: 4rem;
+        width: 380px;
+        height: 200px;
+    }
+
+    .boxx3 {
+        position: absolute;
+        top: 57rem;
+        left: 4rem;
+        width: 380px;
+        height: 200px;
+    }
+
+
+
+    .chest {
+        position: relative;
+        width: 100%;
+        height: 1430px;
+        top: -2rem;
+    }
+
+    .chest h3 {
+        position: absolute;
+        left: 4rem;
+        top: 3rem;
+    }
+
+
+    .urn1 {
+        position: absolute;
+        top: 8rem;
+        left: 4rem;
+        width: 380px;
+    }
+
+    .urn1 ul {
+        width: 330px;
+        margin: 20px;
+    }
+
+
+
+
+
+    .urn2 {
+        position: absolute;
+        top: 28rem;
+        left: 4rem;
+        width: 380px;
+    }
+
+    .urn2 ul {
+        width: 330px;
+        margin: 20px;
+    }
+
+
+
+    .urn3 {
+        position: absolute;
+        top: 48rem;
+        left: 4rem;
+        width: 380px;
+    }
+
+    .urn3 ul {
+        width: 330px;
+        margin: 20px;
+    }
+
+    .urn4 {
+        position: absolute;
+        top: 68rem;
+        left: 4rem;
+        width: 380px;
+    }
+
+    .urn4 ul {
+        width: 330px;
+        margin: 20px;
+
+    }
+
+
+    .case {
+        width: 100%;
+        height: 1300px;
+        position: relative;
+        top: -2rem;
+    }
+
+    .case img {
+        position: relative;
+        top: 3rem;
+        left: 4rem;
+        margin: 20px;
+
+    }
+
+    .case h1 {
+        position: relative;
+        top: 2rem;
+        left: 5rem;
+        font-size: 20px;
+        width: 330px;
+    }
+
+    .case .foto {
+        display: none;
+
+    }
+
+    .navbar-end {
+        width: 100%;
+        height: 352px;
+        position: relative;
+        top: -2rem;
+    }
+
+    .navbar-end h3 {
+        position: relative;
+        font-size: 24px;
+        left: 4rem;
+        top: 2rem;
+        overflow: hidden;
+    }
+
+
+    #btn {
+        position: relative;
+        top: 2rem;
+        left: 4rem;
+    }
+
+    #btnn {
+        position: relative;
+        top: 4rem;
+        left: 4rem;
+    }
+
+    .network {
+        position: relative;
+        top: -1rem;
+        left: 20rem;
+    }
+
+    .con-end g {
+        position: relative;
+        top: 2rem;
+        left: 3rem;
+    }
+
+    .con-end j {
+        position: relative;
+        top: 2rem;
+        left: 4rem;
+    }
+
+}
